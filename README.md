@@ -55,7 +55,7 @@ The separate Actions deployment workflow is manual-only; do not run it while usi
 
 ### Settings fields
 
-The Settings tab uses `key,value` columns. Supported keys are `name`, `headline`, `intro`, `address`, `hours`, `phone`, `story`, `uber`, `doordash`, `facebook`. Headline and hours support line breaks inside cells. Leave phone empty until confirmed. Delivery and social URLs must be HTTPS. Unknown keys are ignored.
+The Settings tab uses `key,value` columns. Supported keys are `name`, `headline`, `intro`, `address`, `hours`, `phone`, `story`, `uber`, `doordash`, `facebook`. Headline and hours support line breaks inside cells. For aligned opening hours, put each day on its own line as `Monday: 10 am–9 pm` or `Wednesday: Closed`. The website displays these as day/time columns; free-text hours remain supported. Leave phone empty until confirmed. Delivery and social URLs must be HTTPS. Unknown keys are ignored.
 
 ### Failure behaviour and migration
 
