@@ -3,7 +3,7 @@ export const defaults = {
   headline: 'Familiar flavours.\nMade with heart.',
   intro: 'From a comforting bowl of phở to your favourite wok-tossed classics. A little taste of home, right here in Springvale.',
   address: '51D Windsor Avenue, Springvale VIC 3171',
-  hours: 'Monday–Tuesday: 10 am–9 pm\nWednesday: Closed\nThursday–Sunday: 10 am–9 pm',
+  hours: 'Monday: 10 am–9 pm\nTuesday: 10 am–9 pm\nWednesday: Closed\nThursday: 10 am–9 pm\nFriday: 10 am–9 pm\nSaturday: 10 am–9 pm\nSunday: 10 am–9 pm',
   phone: '(03) 9548 3382',
   story: 'Good food brings people together. At Nam Son, Chinese and Vietnamese favourites find a place at the same table — from fragrant noodle soups to sizzling, savoury classics. Come for a quick lunch, settle in with friends, or take a little comfort home.',
   uber: 'https://www.ubereats.com/au/store/nam-son-1/uMROu96STk-tSNy9Ji5oIg',
