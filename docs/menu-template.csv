@@ -1,0 +1,6 @@
+id,name,vietnamese,category,description,price,image,tag,featured,available
+pho,Beef Phở,Phở bò,Noodle soups,"A comforting Vietnamese classic with beef, rice noodles and fragrant broth.",,https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?auto=format&fit=crop&w=800&q=85,A bowl of comfort,true,true
+beef,Shaking Beef with Rice,Bò lúc lắc,Rice & wok,"Savoury diced beef, wok-seared and served with rice.",,https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=85,Wok favourites,true,true
+pork,Salt & Pepper Pork Chops,,Rice & wok,A Chinese-style favourite with a fragrant salt and pepper seasoning.,,https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=85,Made for sharing,true,true
+bun,Nam Son Crab Noodle Soup,Bún riêu Nam Son,Noodle soups,A Vietnamese crab and tomato noodle soup.,,https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1400&q=85,,false,true
+coffee,Vietnamese Iced Coffee,Cà phê sữa đá,Drinks,"Bold coffee, a little sweetness, and plenty of ice.",,https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=85,,false,true
