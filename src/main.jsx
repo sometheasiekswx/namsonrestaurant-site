@@ -21,7 +21,7 @@ function App() {
   const s = content.settings;
   useEffect(() => {
     const controller = new AbortController();
-    loadContent({ menuURL: import.meta.env.VITE_MENU_CSV_URL || '/menu-template.csv', settingsURL: import.meta.env.VITE_SETTINGS_CSV_URL || '/settings-template.csv', signal: controller.signal }).then(data => { if (!controller.signal.aborted) setContent(data); });
+    loadContent({ menuURL: import.meta.env.VITE_MENU_CSV_URL || `${import.meta.env.BASE_URL}menu-template.csv`, settingsURL: import.meta.env.VITE_SETTINGS_CSV_URL || `${import.meta.env.BASE_URL}settings-template.csv`, signal: controller.signal }).then(data => { if (!controller.signal.aborted) setContent(data); });
     return () => controller.abort();
   }, []);
   useEffect(() => { document.title = `${s.name} Restaurant · A taste of home in Springvale`; }, [s.name]);

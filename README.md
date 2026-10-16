@@ -16,6 +16,21 @@ npm run preview
 
 Deploy the generated `dist` directory to any static website host. The site works without a connected spreadsheet, using clearly labelled sample content.
 
+## GitHub Pages deployment
+
+Pages serves the committed `docs` directory. In repository **Settings → Pages**, select **Deploy from a branch**, branch `main`, folder `/docs`.
+
+After changing the site or local CSV files, regenerate the published files:
+
+```sh
+npm test
+npm run build -- --outDir docs
+```
+
+Commit the source changes and regenerated `docs` files, then push to `main`. Wait for the Pages deployment to finish. Vite uses relative asset paths and the CSV URLs use Vite's base URL so the site works both under `/namsonrestaurant-site/` and on a root-level Netlify domain.
+
+The separate Actions deployment workflow is manual-only; do not run it while using branch-based `/docs` publishing.
+
 ## Connect Google Sheets
 
 1. Create a Google spreadsheet with two tabs: **Menu** and **Settings**.
