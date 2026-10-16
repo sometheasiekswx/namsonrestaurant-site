@@ -65,7 +65,7 @@ Menu and settings load independently. A missing or unreachable menu feed uses la
 
 ## Before launch
 
-- Confirm address, cuisine, all dishes, prices, opening hours and telephone with the owners. Public listings suggest Chinese and Vietnamese cuisine at 51D Windsor Avenue, Springvale. Phone and opening hours were deliberately not invented.
+- Confirm address, cuisine, all dishes, prices, opening hours and telephone with the owners. Public listings suggest Chinese and Vietnamese cuisine at 51D Windsor Avenue, Springvale. Phone and opening hours were checked against [Google Maps](https://www.google.com/maps/search/Nam+Son+Restaurant+51D+Windsor+Avenue+Springvale/) on 17 October 2026: (03) 9548 3382; Monday–Tuesday and Thursday–Sunday 10 am–9 pm, closed Wednesday. Confirm holiday exceptions with the owners.
 - The initial menu is a selection derived from the supplied restaurant directory, not a verified full menu. Uber Eats blocked automated access; the DoorDash excerpt confirms Chinese and Vietnamese cuisine.
 - Photography is illustrative Unsplash imagery, not photos of Nam Son's actual food. Replace with owner-approved photos before launch. Stock images are visibly labelled as illustrative; missing photos have neutral backgrounds. Fonts load from Google Fonts and photographs from Unsplash, so those services receive ordinary browser requests.
 - Order buttons go to the supplied Uber Eats and DoorDash listings; no fake checkout or reservation form is included.
